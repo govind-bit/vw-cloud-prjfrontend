@@ -21,7 +21,7 @@ const CreateBooks = () => {
     };
     setLoading(true);
     axios
-      .post('http://localhost:5555/books', data)
+      .post('http://govindmajage-prj-backend-lb-196954157.us-east-1.elb.amazonaws.com/books', data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Book Created successfully', { variant: 'success' });

@@ -16,7 +16,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get('http://localhost:5555/books')
+      .get('http://govindmajage-prj-backend-lb-196954157.us-east-1.elb.amazonaws.com/books')
       .then((response) => {
         setBooks(response.data.data);
         setLoading(false);
