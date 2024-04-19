@@ -45,6 +45,6 @@ artifacts:
     - src/**/*
     - package.json  
     - eslintrc.cjs
-    - imagedefinitions.json
+    - imagedefinations.json
     - postcss.config.js
     - tailwind.config.js
